@@ -9,8 +9,8 @@ const Header = () => {
         setShow((prev)=>!prev)
     }
   return (
-      <header className='bg-white sticky top-0 z-50'>
-          <div className='max-w-6xl px-6 mx-auto flex justify-between items-center'>
+      <header className=' bg-white sticky top-0 z-50'>
+          <div className='h-15 max-w-6xl px-6 mx-auto flex justify-between items-center'>
               <p className='text-blue-700 text-2xl'>Softsell</p>
               <div className='flex gap-4 items-center justify-between'>
                   
@@ -20,7 +20,7 @@ const Header = () => {
                           <a href="" className='hover:text-amber-400'>Home</a>
                     
                           <a href="" className='hover:text-amber-400'>How It  Works</a>
-                          <a href="" className='hover:text-amber-400'>Why Us</a>
+                          <a href="#why-us" className='hover:text-amber-400'>Why Us</a>
                           <a href="" className='hover:text-amber-400'>Testimonials</a>
                           <a href="" className='hover:text-amber-400'>Contact Us</a>
                       
